@@ -13,34 +13,34 @@ This script is proudly made by ChatGPT, an AI model developed by OpenAI.
 
 1. Clone the repository:
 
-'''
+```
 git clone https://github.com/accidentalrebel/watermarker.git
-'''
+```
 
 
 2. Install the Pillow library:
 
-'''
+```
 pip install pillow
-'''
+```
 
 
 ## Usage
 
 Run the script from the command line:
 
-'''
+```
 python watermark.py target_directory watermark.png --output output_directory --xOffset 10 --yOffset 20
-'''
+```
 
 
 Replace "target_directory" with the path to the directory containing the images you want to watermark, "watermark.png" with the path to your watermark image, and "output_directory" with the path where you want to save the watermarked images. Adjust the xOffset and yOffset values as needed.
 
 Add the `--verbose` flag to print the process steps:
 
-'''
+```
 python watermark.py target_directory watermark.png --output output_directory --xOffset 10 --yOffset 20 --verbose
-'''
+```
 
 ## License
 
